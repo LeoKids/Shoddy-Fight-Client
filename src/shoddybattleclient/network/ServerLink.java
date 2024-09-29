@@ -553,7 +553,7 @@ public class ServerLink extends Thread {
 
                     // decrypt the challenge
                     try {
-                        Cipher cipher = Cipher.getInstance("AES/ECB/NoPadding");
+                        Cipher cipher = Cipher.getInstance("AES");
 
                         // pass 1
                         cipher.init(Cipher.DECRYPT_MODE, link.m_key[1]);
@@ -2019,7 +2019,7 @@ public class ServerLink extends Thread {
 
     private static String md5(String input) throws NoSuchAlgorithmException,
             UnsupportedEncodingException {
-        MessageDigest digest = MessageDigest.getInstance("MD5");
+        MessageDigest digest = MessageDigest.getInstance("SHA256");
         byte[] hash = digest.digest(input.getBytes("ISO-8859-1"));
         return toHexString(new String(hash, "ISO-8859-1"));
     }
