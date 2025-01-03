@@ -288,7 +288,7 @@ public class TarBuffer {
                 break;
             }
 
-           int offset += numBytes;
+            offset += numBytes;
             bytesNeeded -= numBytes;
 
             if (numBytes != this.blockSize) {
