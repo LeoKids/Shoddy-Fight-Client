@@ -1,4 +1,4 @@
-# Pokémon Lab (client)
+# Shoddy Fight (client)
 
 * Web site: http://pokemonlab.com
 * Canonical repository (hg): http://pokemonlab.com/hg/ShoddyBattleClient2
@@ -6,4 +6,4 @@
 
 _Shoddy Battle_ (later known as _Pokémon Lab_) is a free and open source Pokémon simulator created by Cathy Fitzpatrick (cathyjf) and Benjamin Gwin (bearzly) and first released in July 2007. It allows users to play Pokémon matches against other people online.
 
-This repository is for the client.
+This repository is for the client of a fork of Pokémon Lab.
